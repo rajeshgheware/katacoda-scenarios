@@ -12,7 +12,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "foreground.sh",
       "courseData": "configure.sh"
     },
     "assets": {
