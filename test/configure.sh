@@ -1,4 +1,3 @@
-launch.sh
 kubectl apply -f /opt/deploy.yaml
 rm /opt/deploy.yaml
 
