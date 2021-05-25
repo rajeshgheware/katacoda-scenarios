@@ -12,20 +12,11 @@
     ],
     "intro": {
       "text": "intro.md",
+      "code": "foreground.sh",
       "courseData": "configure.sh"
     },
     "assets": {
       "host01": [
-        {
-          "file": "challenge.sh",
-          "target": "/usr/local/bin/",
-          "chmod": "+x"
-        },
-        {
-          "file": "cheat",
-          "target": "/usr/local/bin/",
-          "chmod": "+x"
-        },
         {
           "file": "deploy.yaml",
           "target": "/opt/"
@@ -34,17 +25,10 @@
     }
   },
   "environment": {
-    "hidesidebar": false,
+    "hidesidebar": true,
     "showide": false,
-    "hideintro": false,
-    "showdashboard": true,
-    "dashboards": [
-      {
-        "name": "Nginx",
-        "port": 30080
-      }
-    ],
-    "uilayout": "terminal-iframe"
+    "hideintro": true,
+    "uilayout": "terminal-iframe-split"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
