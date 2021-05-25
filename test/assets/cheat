@@ -1,3 +1,0 @@
-#!/bin/bash
-
-type_and_run 'curl "node01:30080?cmd=env" > /root/app-env'

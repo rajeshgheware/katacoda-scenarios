@@ -7,13 +7,12 @@
     "steps": [
       {
         "title": "Step 1 - Test",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "background.sh"  
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "foreground.sh",
-      "courseData": "configure.sh"
+      "text": "intro.md"
     },
     "assets": {
       "host01": [
@@ -31,6 +30,6 @@
     "uilayout": "terminal-iframe-split"
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.18"
+    "imageid": "kubernetes-cluster-running"
   }
 }
