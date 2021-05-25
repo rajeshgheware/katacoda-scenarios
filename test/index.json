@@ -34,18 +34,13 @@
     }
   },
   "environment": {
-    "hidesidebar": true,
+    "hidesidebar": false,
     "showide": false,
     "hideintro": false,
     "showdashboard": true,
     "dashboards": [
       {
         "name": "Nginx",
-        "port": 30080
-      },
-      {
-        "name": "Placeholder",
-        "href": "https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com/somepage",
         "port": 30080
       }
     ],

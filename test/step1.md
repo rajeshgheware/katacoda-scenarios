@@ -2,8 +2,10 @@ check files
 
 https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com/
 
+# First div
 <iframe src="https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com/" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
 
+# Second div
  <div id="katacoda-terminal" data-katacoda-id="brainupgrade/courses/kubernetes-ckad/design-build"
         data-katacoda-color="#373534" data-katacoda-secondary="#e00" data-katacoda-background="#fff"
         data-katacoda-hideprogress="true" data-katacoda-font="Open Sans" data-katacoda-fontheader="Open Sans"
