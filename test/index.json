@@ -24,20 +24,11 @@
     }
   },
   "environment": {
-    "hidesidebar": true,
-    "showide": false,
     "hideintro": true,
-    "uilayout": "terminal-iframe-split",
-    "showdashboard": true,
-    "dashboards": [
-      {
-        "name": "Mock Test",
-        "port": 30080
-      }
-    ]
+    "hidefinish": true,
+    "uilayout": "terminal-iframe-split"
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running",
-    "port": 30080
+    "imageid": "kubernetes-cluster-running"
   }
 }
