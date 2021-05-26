@@ -15,7 +15,7 @@
       "text": "intro.md"
     },
     "assets": {
-      "host01": [
+      "controlplane": [
         {
           "file": "deploy.yaml",
           "target": "/opt/"
