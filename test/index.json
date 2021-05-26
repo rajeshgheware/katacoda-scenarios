@@ -24,6 +24,7 @@
     }
   },
   "environment": {
+    "hidesidebar": true,
     "hideintro": true,
     "hidefinish": true,
     "showdashboard": true,
