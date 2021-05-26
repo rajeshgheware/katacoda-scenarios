@@ -26,9 +26,17 @@
   "environment": {
     "hideintro": true,
     "hidefinish": true,
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Mock Test",
+        "port": 30080
+      }
+    ],
     "uilayout": "terminal-iframe-split"
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running"
+    "imageid": "kubernetes-cluster-running",
+    "port": 30080
   }
 }
